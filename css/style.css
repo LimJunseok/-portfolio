@@ -1,0 +1,127 @@
+#back{text-align:center; margin-top:51px; position: relative;}
+.lim_main{text-align: left;}
+#back .back_img{width: 100%; height: 60px; margin-top: 10px; margin-bottom: 15px;}
+.back_left{position: absolute; top:10px; left: 180px; width: 252px; 
+ background-color:rgba(255, 255, 255, 0.7); border-radius: 15px;
+ padding-left: 10px; padding-right: 10px;}
+.ba_gm{width: 100%; font-size: 26px; text-align: left;
+   margin-top:5px; margin-bottom:5px;}
+.ba_big{width: 100%; font-size: 32px; text-align: left;
+   margin-top:5px; margin-bottom:0; font-weight: bolder;}  
+.ba_bb{color:#202020; font-size:20px; position: relative;
+   margin-top:0; margin-bottom:15px;font-weight: bolder;}
+#back .back_left span{position: absolute; top:200px; left: 0;
+     width: 100%; height: 1px; background-color: #202020;}
+
+#back .sns_naver{width: 180px; height: 60px; margin-bottom: 10px;
+   background-color:#04BF33; border-radius: 30px;text-align: center; position: relative;}
+#back .sns_naver .sns_nac_in {width:170px;height: 50px; border-radius: 30px;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back .sns_naver .sns_nac_in a{position: absolute; top: 15px; left: 50px;}   
+#back .sns_naver .sns_nac_in a:hover{color: #fff;}
+#back .sns_naver .sns_nac_in:hover a{color: #fff;}
+#back .sns_naver .sns_nac_in:hover{background-color: #96D97F;}
+#back .sns_naver .sns_naver_in {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#04BF33;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back .sns_naver .sns_naver_in B{font-size: 27px; color: #fff;}
+
+#back .sns_face{width: 180px; height: 60px; margin-bottom: 10px;
+   background-color:#2A558C; border-radius: 30px;}
+#back .sns_face .sns_fa_in {width:170px;height: 50px; border-radius: 30px;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back .sns_face .sns_fa_in a{position: absolute; top: 15px; left: 50px;}   
+#back .sns_face .sns_fa_in:hover a{color: #fff;}
+#back .sns_face .sns_fa_in:hover{background-color: #85C8F2;}
+#back .sns_face .sns_face_in {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#2A558C;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back .sns_face .sns_face_in B{font-size: 27px; color: #fff;}
+
+
+#back .sns_ins{width: 180px; height: 60px; margin-bottom: 5px;
+   background-color:#A433A4; border-radius: 30px;}
+#back .sns_ins .sns_ins_in {width:170px;height: 50px; border-radius: 30px;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back .sns_ins .sns_ins_in a{position: absolute; top: 15px; left: 50px;}   
+#back .sns_ins .sns_ins_in:hover a{color: #fff;}
+#back .sns_ins .sns_ins_in:hover{background-color: #E3A3C8;}
+#back .sns_ins .sns_insta_in {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#A433A4;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back .sns_ins .sns_insta_in B{font-size: 27px; color: #fff;}
+
+#back .reday_in{width: 240px; height: 50px; background-color:#fff; 
+   border-radius: 30px; margin-bottom: 10px; font-size: 14px;
+   border: 4px solid #3D85C6;} 
+#back .reday p{margin-top: 0;margin-bottom: 10px;}
+
+#back .individua{ position: absolute; top:530px; left: 180px;
+   font-size: 14px; border-radius: 15px; width: 252px;
+   margin-bottom: 10px;text-align: left;
+   background-color:rgba(255, 255, 255, 0.7);
+   padding-left: 10px;padding-right: 10px;}
+#back .individua img{padding-right: 6px;}
+#back .individua p{margin-top: 10px;margin-bottom: 10px;}   
+#back .ind_call{width: 248px; border-radius: 15px; 
+   background-color:#fff; border: 2px solid #3D85C6; text-align: center;
+   margin-bottom: 10px;}
+#back .ind_call ul{margin-top: 0;margin-bottom: 0;}   
+#back .ind_call li:first-child{color:#3D85C6; margin-bottom: 5px; margin-top: 10px;}
+#back .ind_call li:nth-child(2){margin-bottom: 15px; font-size: 17px;}
+#back .ind_call li:nth-child(3){color:#3D85C6; margin-bottom: 5px;}
+#back .ind_call li:last-child{margin-bottom: 10px; font-size: 17px;}
+
+#back .plus{position: absolute; top:650px; left: 900px;
+   width:130px; height: 130px; border-radius: 80px; 
+   background-color:rgba(255, 255, 255, 0.7); text-align: center;
+   border:2px solid #3D85C6;}
+#back .plus:hover{background-color: rgba(40, 228, 255, 0.7)}   
+#back .plus:hover a{color: #fff;} 
+#back .plus:hover span{transform: rotate(-180deg);}
+#back .plus:hover span:last-child{transform: rotate(180deg);}
+#back .plus span{width: 30px; height: 2px; background-color: #3D85C6;
+position: absolute; top:95px; left:50px ;transition: all 1.5s}
+#back .plus span:last-child{width: 2px; height: 30px;top:81px; left:64px;
+   transition: all 1.5s;}
+#back .plus p{padding-top: 10px; 
+   font-weight: bolder;font-size: 14px;}
+
+
+
+
+
+
+.red-ball{
+   background-image:url(../images/mouse.on.png) ;
+   background-repeat: no-repeat;
+   position: absolute;
+   top:0;
+   left:0;
+   width: 40px;
+   height: 40px;
+   margin-top:10px; 
+   margin-left:10px;
+   z-index: 999999;
+}
+.red-ball .on{
+   background-image:url(../images/mouse.off.png) ;
+   background-repeat: no-repeat;
+   position: absolute;
+   top:0;
+   left:0;
+   width: 40px;
+   height: 40px;
+   margin-top:10px; 
+   margin-left:10px;
+   z-index: 999999;
+}
+
+
+
+
+
+
+
+
+   

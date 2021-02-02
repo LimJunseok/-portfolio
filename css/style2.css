@@ -1,0 +1,104 @@
+#back2{text-align:center; position: absolute; top: 20px ; left: 180px; display: none;
+    width: 1606px; height: 866px;border: 1px solid #85C8F2;}
+.lim_main2{text-align: left; position: fixed; top:0 ; left: 0;}
+.back_left2{width: 252px; padding:10px; padding-left: 0;
+    background-color:rgba(255, 255, 255, 0.7); margin-top: 0;
+    border-radius:0 0 15px 0;}
+#back2 .back_img2{width: 100%; height:60px; margin-bottom: 20px; }
+.ba_gm2{width: 100%; font-size: 26px; text-align: left;
+   margin-top:5px; margin-bottom:5px;}
+.ba_big2{width: 100%; font-size: 32px; text-align: left;
+   margin-top:5px; margin-bottom:0; font-weight: bolder;}  
+.ba_bb2{color:#202020; font-size:20px; position: relative;
+   margin-top:0; margin-bottom:15px;font-weight: bolder;}
+
+#back2 .About{width: 180px; height: 60px; margin-bottom: 10px;
+   background-color:#04BF33;text-align: center; position: relative;
+   border-radius: 0 10px 10px 0;}
+#back2 .About .About_in2 {width:175px;height: 50px; border-radius: 0 10px 10px 0;
+   position: absolute; top:5px; left: 0; background-color: #fff;position: relative;}
+#back2 .About .About_in2 a{position: absolute; top: 15px; left: 50px;}   
+#back2 .About .About_in2 a:hover{color: #fff;}
+#back2 .About .About_in2:hover a{color: #fff;}
+#back2 .About .About_in2:hover{background-color: #96D97F;}
+#back2 .About .About_line2 {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#04BF33;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back2 .About .About_line2 B{font-size: 27px; color: #fff;}
+
+
+.call_all {padding-left: 20px;}
+.call_all::after{content:'' ; clear: both; display: block;}
+#back2 .sns_naver2{width: 60px; height: 60px; margin-bottom: 10px;
+   background-color:#04BF33; border-radius:50%;
+   text-align: center; position: relative; float: left;}
+#back2 .sns_naver2 .sns_nac_in2 {width:50px;height: 50px; border-radius:50%;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back2 .sns_naver2 .sns_nac_in2 a{position: absolute; top: 15px; left: 50px;}   
+#back2 .sns_naver2 .sns_nac_in2 a:hover{color: #fff;}
+#back2 .sns_naver2 .sns_nac_in2:hover a{color: #fff;}
+#back2 .sns_naver2 .sns_nac_in2:hover{background-color: #96D97F;}
+#back2 .sns_naver2 .sns_naver_in2 {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#04BF33;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back2 .sns_naver2 .sns_naver_in2 B{font-size: 27px; color: #fff;}
+
+#back2 .sns_face2{width: 60px; height: 60px; margin-bottom: 10px;float: left;
+   background-color:#2A558C; border-radius:50%; margin-left:20px; }
+#back2 .sns_face2 .sns_fa_in2 {width:50px;height: 50px; border-radius: 50%; 
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back2 .sns_face2 .sns_fa_in2 a{position: absolute; top: 15px; left: 50px;}   
+#back2 .sns_face2 .sns_fa_in2:hover a{color: #fff;}
+#back2 .sns_face2 .sns_fa_in2:hover{background-color: #85C8F2;}
+#back2 .sns_face2 .sns_face_in2 {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#2A558C;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back2 .sns_face2 .sns_face_in2 B{font-size: 27px; color: #fff;}
+
+#back2 .sns_ins2{width: 60px; height: 60px; margin-bottom: 5px;
+   background-color:#A433A4; border-radius: 50%; margin-left:160px ; }
+#back2 .sns_ins2 .sns_ins_in2 {width:50px;height: 50px; border-radius: 50%;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back2 .sns_ins2 .sns_ins_in2 a{position: absolute; top: 15px; left: 50px;}   
+#back2 .sns_ins2 .sns_ins_in2:hover a{color: #fff;}
+#back2 .sns_ins2 .sns_ins_in2:hover{background-color: #E3A3C8;}
+#back2 .sns_ins2 .sns_insta_in2 {width: 40px; height: 40px; 
+   border-radius: 30px;  background-color:#A433A4;
+   position: absolute; top:5px; left:5px; text-align: center;}   
+#back2 .sns_ins2 .sns_insta_in2 B{font-size: 27px; color: #fff;}
+
+
+
+#back2 .reday2{padding-left: 20px;} 
+#back2 .reday2 p{margin-top: 0;margin-bottom: 10px;}
+
+
+
+
+
+
+
+.red-ball{
+   background-image:url(../images/mouse.on.png) ;
+   background-repeat: no-repeat;
+   position: absolute;
+   top:0;
+   left:0;
+   width: 40px;
+   height: 40px;
+   margin-top:10px; 
+   margin-left:10px;
+   z-index: 999999;
+}
+.red-ball .on{
+   background-image:url(../images/mouse.off.png) ;
+   background-repeat: no-repeat;
+   position: absolute;
+   top:0;
+   left:0;
+   width: 40px;
+   height: 40px;
+   margin-top:10px; 
+   margin-left:10px;
+   z-index: 999999;
+}
