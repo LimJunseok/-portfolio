@@ -1,62 +1,103 @@
-#back{text-align:center; margin-top:51px; position: relative;}
+#back{text-align:center;position: relative; padding-top: 40px;}
 .lim_main{text-align: left;}
-#back .back_img{width: 100%; height: 60px; margin-top: 10px; margin-bottom: 15px;}
-.back_left{position: absolute; top:10px; left: 180px; width: 252px; 
+#back .back_img{width: 100%; height: 60px; margin-top: 10px; margin-bottom: 5px;}
+.back_left{position: absolute; top:35px; left: 170px; width: 252px; 
  background-color:rgba(255, 255, 255, 0.7); border-radius: 15px;
  padding-left: 10px; padding-right: 10px;}
 .ba_gm{width: 100%; font-size: 26px; text-align: left;
    margin-top:5px; margin-bottom:5px;}
-.ba_big{width: 100%; font-size: 32px; text-align: left;
-   margin-top:5px; margin-bottom:0; font-weight: bolder;}  
+.ba_big{width: 100%; font-size: 30px; text-align: left;
+ margin-bottom:0; font-weight: bolder;}  
 .ba_bb{color:#202020; font-size:20px; position: relative;
-   margin-top:0; margin-bottom:15px;font-weight: bolder;}
+   margin-top:0; margin-bottom:40px;font-weight: bolder;}
 #back .back_left span{position: absolute; top:200px; left: 0;
      width: 100%; height: 1px; background-color: #202020;}
 
-#back .sns_naver{width: 180px; height: 60px; margin-bottom: 10px;
-   background-color:#04BF33; border-radius: 30px;text-align: center; position: relative;}
-#back .sns_naver .sns_nac_in {width:170px;height: 50px; border-radius: 30px;
+#back .skil_html{width: 250px; height: 60px; margin-bottom: 40px;
+   background-color:#2A558C; border-radius: 0 30px 30px 0;
+   text-align: center; position: relative;}
+#back .skil_html .skil_in {width:240px;height: 50px; border-radius: 0 30px 30px 0;
    position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
-#back .sns_naver .sns_nac_in a{position: absolute; top: 15px; left: 50px;}   
-#back .sns_naver .sns_nac_in a:hover{color: #fff;}
-#back .sns_naver .sns_nac_in:hover a{color: #fff;}
-#back .sns_naver .sns_nac_in:hover{background-color: #96D97F;}
-#back .sns_naver .sns_naver_in {width: 40px; height: 40px; 
-   border-radius: 30px;  background-color:#04BF33;
-   position: absolute; top:5px; left:5px; text-align: center;}   
-#back .sns_naver .sns_naver_in B{font-size: 27px; color: #fff;}
+#back .skil_html .skil_in .ba{position: absolute; top: 10px; left:0;
+   width: 230px;height: 30px; background-color:#2A558C; border-radius: 0 15px 15px 0;}  
+#back .skil_html .skil_in:hover{background-color: #85C8F2;}
 
-#back .sns_face{width: 180px; height: 60px; margin-bottom: 10px;
-   background-color:#2A558C; border-radius: 30px;}
-#back .sns_face .sns_fa_in {width:170px;height: 50px; border-radius: 30px;
+#back .skil_html .skil_html_in {width: 80px; height: 25px;
+   background-color:#2A558C; position: absolute; top:-30px; left:-5px; 
+   text-align: center; border-right: none;}   
+#back .skil_html .skil_html_in B{font-size: 18px; color: #fff; padding-bottom: -5px;}
+
+
+#back .skil_css{width: 250px; height: 60px; margin-bottom: 40px;
+   background-color:#2A558C;border-radius: 0 30px 30px 0;}
+#back .skil_css .skil_in {width:240px;height: 50px; border-radius: 0 30px 30px 0;
    position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
-#back .sns_face .sns_fa_in a{position: absolute; top: 15px; left: 50px;}   
-#back .sns_face .sns_fa_in:hover a{color: #fff;}
-#back .sns_face .sns_fa_in:hover{background-color: #85C8F2;}
-#back .sns_face .sns_face_in {width: 40px; height: 40px; 
-   border-radius: 30px;  background-color:#2A558C;
-   position: absolute; top:5px; left:5px; text-align: center;}   
-#back .sns_face .sns_face_in B{font-size: 27px; color: #fff;}
+#back .skil_css .skil_in .ba{position: absolute; top: 10px; left: 0;
+   width: 230px;height: 30px; background-color:#2A558C; border-radius: 0 15px 15px 0;} 
+#back .skil_css .skil_in .ba p {margin-top: 5px; text-align:left}
+#back .skil_css .skil_in:hover{background-color: #85C8F2;}
+
+#back .skil_css .skil_css_in {width: 80px; height: 25px; 
+   background-color:#2A558C;  position: absolute; top:-30px; left:-5px; 
+   text-align: center;}   
+#back .skil_css .skil_css_in B{font-size: 18px; color: #fff; padding-bottom: -5px;}
 
 
-#back .sns_ins{width: 180px; height: 60px; margin-bottom: 5px;
-   background-color:#A433A4; border-radius: 30px;}
-#back .sns_ins .sns_ins_in {width:170px;height: 50px; border-radius: 30px;
+#back .skil_ps{width: 250px; height: 60px; margin-bottom: 40px;
+   background-color:#F27507; border-radius: 0 30px 30px 0;}
+#back .skil_ps .skil_in {width:240px;height: 50px; border-radius: 0 30px 30px 0;
    position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
-#back .sns_ins .sns_ins_in a{position: absolute; top: 15px; left: 50px;}   
-#back .sns_ins .sns_ins_in:hover a{color: #fff;}
-#back .sns_ins .sns_ins_in:hover{background-color: #E3A3C8;}
-#back .sns_ins .sns_insta_in {width: 40px; height: 40px; 
-   border-radius: 30px;  background-color:#A433A4;
-   position: absolute; top:5px; left:5px; text-align: center;}   
-#back .sns_ins .sns_insta_in B{font-size: 27px; color: #fff;}
+#back .skil_ps .skil_in .ba{position: absolute; top: 10px; left: 0;
+   width: 230px;height: 30px; background-color:#F27507; border-radius: 0 15px 15px 0;}     
+#back .skil_ps .skil_in:hover{background-color: #F2B705;}
 
+#back .skil_ps .skil_ps_in {width: 80px; height: 25px; 
+   background-color:#F27507; position: absolute; top:-30px; left:-5px; 
+   text-align: center;}   
+#back .skil_ps .skil_ps_in B{font-size: 18px; color: #fff;padding-bottom: -5px;}
+
+
+#back .skil_al{width: 250px; height: 60px; margin-bottom: 40px;
+   background-color:#F27507; border-radius: 0 30px 30px 0;
+   text-align: center; position: relative;}
+#back .skil_al .skil_in {width:240px;height: 50px; border-radius: 0 30px 30px 0;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back .skil_al .skil_in .ba{position: absolute; top: 10px; left:0;
+   width: 230px;height: 30px; background-color:#F27507; border-radius: 0 15px 15px 0;}  
+#back .skil_al .skil_in .ba p {margin-top: 6px; text-align:left; font-size: 14px;}
+#back .skil_al .skil_in:hover{background-color:#F2B705;}
+
+#back .skil_al .skil_al_in {width: 80px; height: 25px; background-color:#F27507;
+   position: absolute; top:-30px; left:-5px; text-align: center; 
+  border-right: none;}   
+#back .skil_al .skil_al_in B{font-size: 18px; color: #fff; padding-bottom: -5px;}
+
+
+#back .skil_jq{width: 250px; height: 60px; margin-bottom: 40px;
+   background-color:#97BF04; border-radius: 0 30px 30px 0;
+   text-align: center; position: relative;}
+#back .skil_jq .skil_in {width:240px;height: 50px; border-radius: 0 30px 30px 0;
+   position: absolute; top:5px; left: 5px; background-color: #fff;position: relative;}
+#back .skil_jq .skil_in .ba{position: absolute; top: 10px; left:0;
+   width: 230px;height: 30px; background-color:#97BF04; border-radius: 0 15px 15px 0;}  
+#back .skil_jq .skil_in .ba p {margin-top: 6px; text-align:left; font-size: 14px;}
+#back .skil_jq .skil_in:hover{background-color: #EDF2C2;}
+
+#back .skil_jq .skil_jq_in {width: 80px; height: 25px; background-color:#97BF04;
+   position: absolute; top:-30px; left:-5px; text-align: center; 
+  border-right: none;}   
+#back .skil_jq .skil_jq_in B{font-size: 18px; color: #fff; padding-bottom: -5px;}
+
+
+
+
+/*
 #back .reday_in{width: 240px; height: 50px; background-color:#fff; 
    border-radius: 30px; margin-bottom: 10px; font-size: 14px;
    border: 4px solid #3D85C6;} 
 #back .reday p{margin-top: 0;margin-bottom: 10px;}
-
-#back .individua{ position: absolute; top:530px; left: 180px;
+*/
+#back .individua{ position: absolute; top:52px; left: 455px;
    font-size: 14px; border-radius: 15px; width: 252px;
    margin-bottom: 10px;text-align: left;
    background-color:rgba(255, 255, 255, 0.7);
@@ -86,9 +127,6 @@ position: absolute; top:95px; left:50px ;transition: all 1.5s}
    transition: all 1.5s;}
 #back .plus p{padding-top: 10px; 
    font-weight: bolder;font-size: 14px;}
-
-
-
 
 
 
