@@ -7,7 +7,9 @@ html{font-size:16px;}
 body{font-size:16px;
       color:#202020; margin: 0;
       font-family:'Nanum Gothic', sans-serif;
-width:100%; overflow-x: hidden;}
+      width:100%;-ms-overflow-style: none; 
+      overflow: auto;}
+ ::-webkit-scrollbar { display: none; }      
 ul, ol, li{list-style-type:none; padding-left: 0;}
 img, fieldset{vertical-align: middle}
 hr {clear:both;border:none}
@@ -17,6 +19,12 @@ input, textarea {color:inherit;font-size:inherit;
        font-family:inherit;
        vertical-align: middle}
 button{outline:0}
+.box{ -ms-overflow-style: none; } 
+.box::-webkit-scrollbar{ display:none; }
+/** 위에는 특정한 부분 스크롤 바는 없애고 스크롤은 그대로 유지
+-ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+위에는 바디 안에 넣어서 다없애기 */
+
 .sound_only{display: block;text-indent:-9999999999999999999999999999999999999999999px; height:0;}
 .inner{max-width:1080px ;margin: 0 auto;}*/
 
