@@ -7,6 +7,16 @@
 width: 1300px; height: 866px;border: 1px solid #85C8F2;
 border-radius: 10px; background-color:rgba(42, 85, 140, 0.8);}
 
+.under_Lim4{width:80px; height: 100px;background-color: #85C8F2;
+  position: fixed; top:50px; right: 140px;
+z-index: 9999; border:1px solid #202020 ;}
+.under_Lim4 img{margin-left: 20px; margin-right: 10px; margin-top: 10px;}
+.under_Lim4 p{color: #202020; font-size: 14px;text-align: center; width: 100%;}
+.under_img4{width: 80px; height: 100%;}
+.under_Lim4:hover{background-color:unset; border: none;}
+.under_Lim4:hover p{color: #fff;}
+
+
 
 
 .lim_main3{text-align: left; position: fixed; top:30px ; left: 60px;}
@@ -38,7 +48,7 @@ color:#85C8F2; width: 100px; margin: 0 auto;}
 .project h2{margin-top: 20px;}
 .con_a{border: 1px solid #85C8F2;padding: 8px 30px;
    font-size: 16px; color: #fff;
-  position: fixed; top:50px; right:265px;}
+  position:absolute; top:50px; right:50px;}
 .con_a:hover{background-color: rgba(40, 228, 255, 0.5);}
 
 

@@ -1,12 +1,19 @@
 #all_back_img{ background-image: url(../images/pro_back.png);
                background-repeat: no-repeat;
-            width: 100%; height:100%; overflow: hidden;}
+            width: 100%; height:100%;}
 #back3{text-align:center;overflow: hidden;}
 .back_main2{ position: absolute; top: 30px ; left: 380px;
-    width: 1300px; height: 866px;border: 1px solid #85C8F2;
+    width:calc(1920px - 620px) ; height: 866px;border: 1px solid #85C8F2;
     border-radius: 10px; background-color:rgba(42, 85, 140, 0.8);
     overflow: auto;}
-
+.under_Lim3{width:80px; height: 100px;background-color: #85C8F2;
+  position: fixed; top:50px; right: 140px;
+z-index: 9999; border:1px solid #202020 ;}
+.under_Lim3 img{margin-left: 20px; margin-right: 10px; margin-top: 10px;}
+.under_Lim3 p{color: #202020; font-size: 14px;text-align: center; width: 100%;}
+.under_img3{width: 80px; height: 100%;}
+.under_Lim3:hover{background-color:unset; border: none;}
+.under_Lim3:hover p{color: #fff;}
 
 
 .lim_main3{text-align: left; position: fixed; top:30px ; left: 60px;}
@@ -34,7 +41,7 @@
 
 .con_a{border: 1px solid #85C8F2;padding: 8px 30px;
    font-size: 16px; color: #fff;
-  position: fixed; top:50px; right:265px;}
+  position: absolute; top:50px; right:50px;}
 .con_a:hover{background-color: rgba(40, 228, 255, 0.5);}
 
 
@@ -113,7 +120,7 @@
 #back3 .reday3{padding-left: 20px; padding-bottom: 10px;} 
 #back3 .reday3 p{margin-top: 0;margin-bottom: 10px; color:#2A558C}
 
-#back3 .individua3{position: absolute; top:550px; left: 60px;
+#back3 .individua3{position: absolute; top:550px; left: 0;
    font-size: 14px; border-radius: 15px; width: 252px;
    margin-bottom: 10px;text-align: left; padding-left: 10px;
    background-color:rgba(255, 255, 255, 0.7);
@@ -128,6 +135,19 @@
 #back3 .ind_call3 li:nth-child(2){margin-bottom: 15px; font-size: 17px;}
 #back3 .ind_call3 li:nth-child(3){color:#3D85C6; margin-bottom: 5px;}
 #back3 .ind_call3 li:last-child{margin-bottom: 10px; font-size: 17px;}
+
+
+#filter a {
+   color: #000;
+   display: inline-block;
+   padding: 10px 20px;
+   margin-right: 20px;
+   border: 1px solid #85C8F2;
+   color: #fff;
+   font-size: 16px;
+   border-radius: 15px;
+}
+
 
 
 .red-ball{

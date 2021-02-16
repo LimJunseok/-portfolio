@@ -3,6 +3,15 @@ html,body{padding:0; margin:0;width: 100%;height: 100%;}
 .lightBg{background : url(images/snow.jpg) #61bdc4 top center no-repeat;}
 .snowfall-flakes{background: rgb(255, 255, 255); height: 869px;}
 
+.under_Lim{width:80px; height: 100px;background-color: #85C8F2;
+  position: fixed; top:50px; right: 180px;
+z-index: 9999; border:1px solid #202020 ;}
+.under_Lim img{margin-left: 20px; margin-right: 10px; margin-top: 10px;}
+.under_Lim p{color: #202020; font-size: 14px;text-align: center; width: 100%;}
+.under_img{width: 80px; height: 100%;}
+.under_Lim:hover{background-color:unset; border: none;}
+.under_Lim:hover p{color: #fff;}
+
 #filter {
 	display: block;
 	height: 39px;
@@ -11,7 +20,7 @@ html,body{padding:0; margin:0;width: 100%;height: 100%;}
 	width: 600px;
 	text-align:center;
 }
-#filter a:first-child{display: none;}
+
 #filter a{
 	color: #000;
 	display: inline-block;
@@ -29,15 +38,18 @@ html,body{padding:0; margin:0;width: 100%;height: 100%;}
 	width: 100%;
 	margin:0 auto;}
 
+
 #container li{
 	float: left;
-	height: 140px;
-	border: 1px solid springgreen;
+	height: 205px;
 	list-style: none outside none;
 	margin-bottom: 10px; margin-left: 10px;
 	position: relative;
-	width: 142px;}
+	width: calc(100% - 875px);
+	background-color:#3D85C6;
+    overflow: hidden;}
 
+#container > li:hover #poup{display: block;}
 #container ul{overflow:hidden;}
 
 #container ul.hidden{display:none;}
