@@ -210,7 +210,7 @@ width: 100%; height:100%;position: absolute; top:0; left: 0;}
 position: absolute; top:95px; left:50px ;transition: all 1.5s}
 #back .plus span:last-child{width: 2px; height: 30px;top:81px; left:64px;
    transition: all 1.5s;}
-#back .plus p{padding-top: 10px; 
+#back .plus p{padding-top: 20px; 
    font-weight: bolder;font-size: 14px;}
 
 
